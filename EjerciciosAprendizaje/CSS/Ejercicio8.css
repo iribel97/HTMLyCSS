@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Victor+Mono&display=swap');
+
+body{
+    background-color: rgb(245, 231, 220);
+}
+
+ul{
+    font-family:'Victor Mono';
+}
+
+.Enlaces{
+    text-decoration: none;
+    color: red;
+}
+
+.Enlaces:hover{
+    background-color: red;
+    color: white;
+}
+
+.boton {
+    background-color: #e29898;
+    padding: 10px 20px;
+    border: 2px solid #e29898;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Victor Mono';
+}
+
+.boton:hover {
+    background-color: #da2f2fab;
+    border: 2px solid #da2f2fab;
+    
+}
+
+.enlaceBoton {
+    text-decoration: none;
+    color: rgb(85, 91, 97);
+}
+
