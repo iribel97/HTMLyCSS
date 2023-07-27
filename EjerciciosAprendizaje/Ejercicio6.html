@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 6</title>
 </head>
+
 <body>
     <h1>Registrar un usuario</h1>
+    <form action="/controlador-registro" method="POST" class="form-registro" id="form-registro"
+        enctype="multipart/form-data">
+        <div>
+            <label for="nombre">Usuario* :</label>
+            <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
+        </div>
+        <div>
+            <label for="password">Contraseña* :</label>
+            <input type="password" name="password" placeholder="Contraseña del usuario" required>
+        </div>
+        <div>
+            <label for="edad">Edad* :</label>
+            <input type="number" name="edad" placeholder="Edad del usuario" required>
+        </div>
+        <div>
+            <label for="fecha">Fecha de nacimiento* :</label>
+            <input type="date" name="fecha" required>
+        </div>
+        <div>
+            <label>Sexo: </label>
+
+            <input type="radio" name="men">
+            <label for="men">Hombre</label>
+
+            <input type="radio" name="women">
+            <label for="women">Mujer</label>
+
+            <input type="radio" name="other">
+            <label for="other">Prefiero no decir</label>
+
+        </div>
+        <div>
+            <label for="pais">País de nacimiento</label>
+            <select name="pais" >
+                <option value="ecuador">Ecuador</option>
+                <option value="peru">Peru</option>
+                <option value="colombia">Colombia</option>
+                <option value="argentina">Argentina</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="mexico">Mexico</option>
+                <option value="chile">Chile</option>
+            </select>
+        </div>
+
+        <button type="submit">Registrado</button>
+    </form>
 
     <div>
         <a href="index.html">Inicio</a>
     </div>
 </body>
+
 </html>
