@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/Boton.css">
+    <title>Ejercicio 13</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <a href="index.html">
+                <img src="./IMG/Iri.png" alt="logo Irina">
+            </a>
+        </div>
+        <div class="NombreEjercicio">
+            <h1>Ejercicio 13</h1>
+        </div>
+        
+
+    </header>
+
+    <section id="ejercicio">
+        <hr>
+        <form>
+
+            <legend>Formulario de Registro</legend>
+            <div class="mb-3">
+                <label for="TextEmail" class="form-label">Email</label>
+                <input type="email" id="TextEmail" class="form-control" placeholder="Ingrese su email">
+            </div>
+            <div class="mb-3">
+                <label for="TextPass" class="form-label">Contraseña</label>
+                <input type="password" name="TextPass" class="form-control" placeholder="Ingrese su contraseña">
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="remember">
+                    <label class="form-check-label" for="remember">
+                        Recuerdame
+                    </label>
+                </div>
+            </div>
+
+
+        </form>
+        <hr>
+    </section>
+
+    <section id="resolucion">
+
+        <h1>Solución</h1>
+
+
+        <div class="code-editor">
+            <div class="header">
+                <span class="title">HTML &lt;BODY&gt;</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="editor-content">
+
+                <code class="code">
+                    &lt;<span class="color-0">form</span>&gt; <br>
+    
+                    &emsp;&lt;<span class="color-2">legend</span>&gt; Formulario de Registro &lt;/ <span class="color-2">legend</span> &gt; <br>
+    
+                    &emsp;&lt;<span class="color-2">div</span> <span class="color-3">class</span>=<span class="color-1">"mb-3"</span>&gt; <br>
+                    
+                    &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"TextEmail"</span> <span class="color-3">class</span>=<span class="color-1">"form-label"</span>&gt; Email &lt;/<span class="color-2">label</span>&gt;<br>
+                    
+                    &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"email"</span> <span class="color-3">id</span>=<span class="color-1">"TextEmail"</span> <span class="color-3">class</span>=<span class="color-1">"form-control"</span>  <br>
+                    &emsp;&emsp;&emsp;&emsp;<span class="color-3">placeholder</span>=<span class="color-1">"Ingrese su email"</span>&gt;<br>
+    
+                    &emsp;&lt;/<span class="color-2">div</span>&gt;<br>
+    
+                    &emsp;&lt;<span class="color-2">div</span> <span class="color-3">class</span>=<span class="color-1">"mb-3"</span>&gt; <br>
+                    
+                    &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"TextPass"</span> <span class="color-3">class</span>=<span class="color-1">"form-label"</span>&gt; Contraseña  <br>
+                    &emsp;&emsp;&lt;/<span class="color-2">label</span>&gt;<br>
+    
+                    &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"password"</span> <span class="color-3">name</span>=<span class="color-1">"TextPass"</span> <span class="color-3">class</span>=<span class="color-1">"form-control"</span> <br>
+                    &emsp;&emsp;&emsp;&emsp;<span class="color-3">placeholder</span>=<span class="color-1">"Ingrese su contraseña"</span>&gt;<br>
+    
+                    &emsp;&lt;/<span class="color-2">div</span>&gt;<br>
+    
+                    &emsp;&lt;<span class="color-2">div</span> <span class="color-3">class</span>=<span class="color-1">"mb-3"</span>&gt; <br>
+                    
+                    &emsp;&emsp;&lt;<span class="color-2">div</span> <span class="color-3">class</span>=<span class="color-1">"form-check"</span>&gt;<br>
+                    
+                    &emsp;&emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">class</span>=<span class="color-1">"form-check-input"</span> <span class="color-3">type</span>=<span class="color-1">"checkbox"</span> <br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;<span class="color-3">id</span>=<span class="color-1">"remember"</span>&gt;<br>
+    
+                    &emsp;&emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">class</span>=<span class="color-1">"form-check-label"</span> <span class="color-3">for</span>=<span class="color-1">"remember"</span>&gt; Recuerdame <br>
+                    &emsp;&emsp;&emsp;&lt;/<span class="color-2">label</span>&gt;<br>
+                    
+                    &emsp;&emsp;&lt;/<span class="color-2">div</span>&gt;<br>
+                    
+                    &emsp;&lt;/<span class="color-2">div</span>&gt;<br>
+    
+                    &lt;/<span class="color-0">form</span>&gt; <br>
+                    
+                  </code>
+
+            </div>
+        </div>
+
+        <section id="bt">
+            <button type="button" class="boton">
+                <a href="index.html" class="enlaceBoton">
+                    Inicio
+                </a>
+            </button>
+        </section>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Iri</p>
+    </footer>
+</body>
+
+</html>

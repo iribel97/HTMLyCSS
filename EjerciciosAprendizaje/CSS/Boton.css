@@ -1,16 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Victor+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------   CABECERA   --------------------------------------------------------------------*/
+
+header {
+    /*COLOR DE FONDO*/
+    background-color: rgb(248, 244, 238);
+    /*CONTORNO REDONDEADO*/
+    border-radius: 20px;
+    /*ANCHO*/
+    width: 100%;
+    /*ALTO*/
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Agrega una sombra */
+    /*EDITAR LETRA*/
+    font-family: 'Exo';
+
+}
+
+.Logo img {
+    width: 150px;
+    height: 90px;
+    float: left;
+    transition: all 3000ms;
+}
+
+.NombreEjercicio {
+    width: 300px;
+    height: 75px;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    color: rgb(214, 174, 136);
+
+}
+
+
+
+/*--------------   SECCIONES   --------------------------------------------------------------------*/
+section {
+
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+hr {
+    width: 350px;
+    height: 2px;
+    background: #f59595;
+    border: 0;
+    /*Separaciones arriba y abajo*/
+    margin: 10px auto 10px auto;
+}
+
+
+#ejercicio {
+    margin: 120px auto 0 auto;
+    background-color: white;
+
+}
+
+#ejercicio form {
+
+    padding: 20px;
+
+}
+
+#resolucion {
+
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 244, 238);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+#bt {
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resolucion h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #f59595;
+    font-family: 'Comic Neue';
+    text-align: center;
+}
+
+
+
+code {
+    color: white;
+}
+
+/*--------------   BOTON   --------------------------------------------------------------------*/
+
 .boton {
-    background-color: #e29898;
+    background-color: #e29898a4;
     padding: 10px 20px;
     border: 2px solid #e29898;
     border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 15px;
+    font-family: 'Comic Neue';
     font-weight: bold;
 }
 
 .boton:hover {
-    background-color: #da2f2fab;
-    border: 2px solid #da2f2fab;
+    background-color: #da2f2f71;
+    border: 2px solid #da2f2f6e;
 }
 
 .enlaceBoton {
@@ -18,7 +134,98 @@
     color: rgb(85, 91, 97);
 }
 
-#btn{
-    background-color: #e29898;
-    border: 2px solid #e29898;
+
+
+/* ----------------------------------- PIE DE PAGINA ------------------------------*/
+footer {
+    padding: 20px;
+    /* Agregar espacio interno para el contenido */
+    width: 100%;
+    /* Establecer el ancho al 100% */
+    background-color: rgb(248, 244, 238);
+}
+
+/*--------------- CARTA -------------------------*/
+.code-editor {
+    max-width: 550px;
+    background-color: #1d1e22;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin: 10px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: rgb(212 212 212);
+}
+
+.icon {
+    width: 20px;
+    transition: .2s ease;
+}
+
+.icon:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #6e7281;
+}
+
+.editor-content {
+    margin: 0 10px 10px;
+    color: white;
+}
+
+.property {
+    margin-left: 20px;
+}
+
+.property:hover {
+    cursor: text;
+}
+
+.editor-content .color-0 {
+    color: rgb(86 156 214);
+}
+
+.editor-content .color-1 {
+    color: rgb(182 206 168);
+}
+
+.editor-content .color-2 {
+    color: rgb(156 220 254);
+}
+
+.editor-content .color-3 {
+    color: rgb(207 146 120);
+}
+
+.color-preview-1,
+.color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #ffffff00;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.color-preview-1 {
+    background-color: #1d1e22;
+}
+
+.color-preview-1 {
+    background-color: rgba(0, 0, 0, 0.5);
 }
