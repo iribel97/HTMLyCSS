@@ -1,44 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Boton.css">
     <link rel="stylesheet" href="CSS/Ejercicio8.css">
     <title>Ejercicio 8</title>
 </head>
+
 <body>
-    <ul>
-        <li>Buscadores</li>
+    <header>
+        <div class="Logo">
+            <a href="index.html">
+                <img src="./IMG/Iri.png" alt="logo Irina">
+            </a>
+        </div>
+        <div class="NombreEjercicio">
+            <h1>Ejercicio 8</h1>
+        </div>
+    </header>
+    <section id="ejercicio">
+        <hr>
         <ul>
-            <li>
-                <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwi4rLGs3K2AAxXFlGoFHS1mDvsQPAgI" class="Enlaces">
-                    Google
-                </a>
-            </li>
-            <li>
-                <a href="https://www.bing.com/?setlang=es"  class="Enlaces">
-                    Bing
-                </a>
-            </li>
+            <li>Buscadores</li>
+            <ul>
+                <li>
+                    <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwi4rLGs3K2AAxXFlGoFHS1mDvsQPAgI"
+                        class="Enlaces">
+                        Google
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bing.com/?setlang=es" class="Enlaces">
+                        Bing
+                    </a>
+                </li>
+            </ul>
+            <li>Redes sociales</li>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" class="Enlaces">
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des" class="Enlaces">
+                        Twitter
+                    </a>
+                </li>
+            </ul>
         </ul>
-        <li>Redes sociales</li>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/"  class="Enlaces">
-                    Instagram
+        <hr>
+    </section>
+
+    <section id="resolucion">
+
+        <h1 class="fuenteLetra">Solución</h1>
+
+        <section class="cartas">
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">HTML &lt;BODY&gt;</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        &lt;<span class="color-2">ul</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">li</span>&gt; Buscadores &lt;/<span class="color-2">li</span>&gt;<br>
+                        &emsp;&emsp;&lt;<span class="color-2">ul</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;<span class="color-2">a</span> <span class="color-3">href</span>=<span class="color-1">"https://www.google.com"</span> <span class="color-3">class</span>=<span class="color-1">"Enlaces"</span>&gt; Google &lt;/<span class="color-2">a</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;/<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;<span class="color-2">a</span> <span class="color-3">href</span>=<span class="color-1">"https://www.bing.com/?setlang=es"</span> <span class="color-3">class</span>=<span class="color-1">"Enlaces"</span>&gt; Bing <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/<span class="color-2">a</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;/<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&lt;/<span class="color-2">ul</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">li</span>&gt; Redes sociales &lt;/<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">ul</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;<span class="color-2">a</span> <span class="color-3">href</span>=<span class="color-1">"https://www.instagram.com/"</span> <span class="color-3">class</span>=<span class="color-1">"Enlaces"</span>&gt; Instagram <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;/<span class="color-2">a</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;/<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&emsp;&lt;<span class="color-2">a</span> <span class="color-3">href</span>=<span class="color-1">"https://twitter.com/"</span> <span class="color-3">class</span>=<span class="color-1">"Enlaces"</span>&gt; Twitter &lt;/<span class="color-2">a</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;/<span class="color-2">li</span>&gt; <br>
+                        &emsp;&emsp;&lt;/<span class="color-2">ul</span>&gt; <br>
+                        &lt;/<span class="color-2">ul</span>&gt; <br>
+                      </code>
+
+                </div>
+            </div>
+
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">CSS</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        <br><br>
+                        <span class="color-4">@import</span> <span class="color-3">url(</span><span class="color-1">'https://fonts.googleapis.com/css2?family=Exo</span> <br>
+                        <span class="color-1">&family=Victor+Mono&display=swap'</span><span class="color-3">)</span>; <br>
+                        <br>
+                        <span class="color-0">body </span> <span>{</span> 
+                             <span class="color-2">background-color</span><span>:</span>
+                                <span class="color-preview-4"></span>
+                                <span class="color-3">rgb(</span>
+                                <span class="color-1"> 245, 231, 220 </span>
+                                <span class="color-3">)</span>;
+                        <span>}</span>
+                        <br><br>
+                        <span class="color-0">ul</span> { 
+                             <span class="color-2">font-family</span><span>:</span>
+                            <span class="color-1">'Victor Mono'</span>; 
+                        } <br>
+                        <br>
+                        <span class="color-0">.Enlaces</span> { <br>
+                            &emsp;&emsp;<span class="color-2">text-decoration</span><span>:</span>
+                            <span class="color-3">none</span>; <br>
+                            &emsp;&emsp;<span class="color-2">color</span><span>:</span>
+                            <span class="color-preview-red"></span>
+                            <span class="color-3">red</span>; <br>
+                        } <br>
+                        <br>
+                        <span class="color-0">.Enlaces:hover</span> { <br>
+                            &emsp;&emsp;<span class="color-2">background-color</span><span>:</span>
+                            <span class="color-preview-red"></span>
+                            <span class="color-3">red</span>; <br>
+                            &emsp;&emsp;<span class="color-2">color</span><span>:</span>
+                            <span class="color-preview-white"></span>
+                            <span class="color-3">white</span>; <br>
+                        } <br>
+
+                      </code>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="bt">
+            <button type="button" class="boton">
+                <a href="index.html" class="enlaceBoton">
+                    Inicio
                 </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"  class="Enlaces">
-                    Twitter
-                </a>
-            </li>
-        </ul>
-    </ul>
-    <button type="button" class="boton">
-        <a href="index.html" class="enlaceBoton">
-            Inicio
-        </a>
-    </button>
+            </button>
+        </section>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Iri</p>
+    </footer>
 </body>
+
 </html>

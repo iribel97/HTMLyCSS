@@ -1,40 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Courgette&family=Victor+Mono:wght@100&display=swap');
 
-body {
-    background-color: rgba(130, 144, 156, 0.534);
+#ejercicio, body {
+    background-color: rgb(130, 144, 156);
 }
 
-h1 {
+#ejercicio h1 {
     font-family: 'Borel';
     text-align: center;
 }
 
-h2 {
+#ejercicio h2 {
     font-family: 'Courgette';
     text-align: center;
 }
 
-p {
+#ejercicio p {
     font-family: 'Victor Mono';
 }
 
-.boton {
-    background-color: #5d6facc2;
-    padding: 10px 20px;
-    border: 2px solid #5d6facc2;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.boton:hover {
-    background-color: rgba(3, 41, 146, 0.623);
-    border: 2px solid rgb(3, 41, 146);
-    
-}
-
-a {
-    text-decoration: none;
-    color: aliceblue;
-}

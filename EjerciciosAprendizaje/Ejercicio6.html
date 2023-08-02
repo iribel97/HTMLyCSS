@@ -4,64 +4,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Boton.css">
     <title>Ejercicio 6</title>
 </head>
 
 <body>
-    <h1>Registrar un usuario</h1>
-    <form action="/controlador-registro" method="POST" class="form-registro" id="form-registro"
-        enctype="multipart/form-data">
-        <div>
-            <label for="nombre">Usuario* :</label>
-            <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
+    <header>
+        <div class="Logo">
+            <a href="index.html">
+                <img src="./IMG/Iri.png" alt="logo Irina">
+            </a>
         </div>
-        <div>
-            <label for="password">Contraseña* :</label>
-            <input type="password" name="password" placeholder="Contraseña del usuario" required>
+        <div class="NombreEjercicio">
+            <h1>Ejercicio 6</h1>
         </div>
-        <div>
-            <label for="edad">Edad* :</label>
-            <input type="number" name="edad" placeholder="Edad del usuario" required>
+    </header>
+    <section id="ejercicio">
+        <hr>
+        <h1>Registrar un usuario</h1>
+        <form action="/controlador-registro" method="POST" class="form-registro" id="form-registro"
+            enctype="multipart/form-data">
+            <div>
+                <label for="nombre">Usuario* :</label>
+                <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
+            </div>
+            <div>
+                <label for="password">Contraseña* :</label>
+                <input type="password" name="password" placeholder="Contraseña del usuario" required>
+            </div>
+            <div>
+                <label for="edad">Edad* :</label>
+                <input type="number" name="edad" placeholder="Edad del usuario" required>
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento* :</label>
+                <input type="date" name="fecha" required>
+            </div>
+            <div>
+                <label>Sexo: </label>
+
+                <input type="radio" name="men">
+                <label for="men">Hombre</label>
+
+                <input type="radio" name="women">
+                <label for="women">Mujer</label>
+
+                <input type="radio" name="other">
+                <label for="other">Prefiero no decir</label>
+
+            </div>
+            <div>
+                <label for="pais">País de nacimiento</label>
+                <select name="pais">
+                    <option value="ecuador">Ecuador</option>
+                    <option value="peru">Peru</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="venezuela">Venezuela</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="chile">Chile</option>
+                </select>
+            </div>
+
+            <button type="submit">Registrado</button>
+        </form>
+        <hr>
+    </section>
+
+
+    <section id="resolucion">
+
+        <h1 class="fuenteLetra">Solución</h1>
+
+
+        <div class="code-editor">
+            <div class="header">
+                <span class="title">HTML &lt;BODY&gt;</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                        <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="editor-content">
+
+                <code class="code">
+                    &lt;<span class="color-2">h1</span>&gt; Registrar un usuario &lt;/<span class="color-2">h1</span>&gt; <br>
+                    &lt;<span class="color-2">form</span> <span class="color-3">action</span>=<span class="color-1">"/controlador-registro"</span> <span class="color-3">method</span>=<span class="color-1">"POST"</span> <span class="color-3">class</span>=<span class="color-1">"form-</span> <br> 
+                    &emsp;&emsp;&emsp;<span class="color-1">registro"</span> <span class="color-3">id</span>=<span class="color-1">"form-registro"</span> <span class="color-3">enctype</span>=<span class="color-1">"multipart/form-data"</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"nombre"</span>&gt; Usuario* : &lt;/<span class="color-2">label</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"text"</span> <span class="color-3">name</span>=<span class="color-1">"nombre"</span> <span class="color-3">placeholder</span>=<span class="color-1">"Nombre de Usuario"</span> <br>
+                        &emsp;&emsp;&emsp;<span class="color-3">required</span>&gt; <br>
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt;<br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"password"</span>&gt; Contraseña* : &lt;/<span class="color-2">label</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"password"</span> <span class="color-3">name</span>=<span class="color-1">"password"</span> <span class="color-3">placeholder</span>=<span class="color-1">"Contraseña</span> <br>
+                        &emsp;&emsp;&emsp;<span class="color-1">del usuario"</span> <span class="color-3">required</span>&gt; <br>
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"edad"</span>&gt; Edad* : &lt;/<span class="color-2">label</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"number"</span> <span class="color-3">name</span>=<span class="color-1">"edad"</span> <span class="color-3">placeholder</span>=<span class="color-1">"Edad del usuario"</span> <br>
+                        &emsp;&emsp;&emsp;<span class="color-3">required</span>&gt; <br>
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"fecha"</span>&gt; Fecha de nacimiento* : &lt;/<span class="color-2">label</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"date"</span> <span class="color-3">name</span>=<span class="color-1">"fecha"</span> <span class="color-3">required</span>&gt; <br>
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span>&gt; Sexo: &lt;/<span class="color-2">label</span>&gt; <br>
+                
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"radio"</span> <span class="color-3">name</span>=<span class="color-1">"men"</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"men"</span>&gt; Hombre &lt;/<span class="color-2">label</span>&gt; <br>
+                
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"radio"</span> <span class="color-3">name</span>=<span class="color-1">"women"</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"women"</span>&gt; Mujer &lt;/<span class="color-2">label</span>&gt; <br>
+                
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">input</span> <span class="color-3">type</span>=<span class="color-1">"radio"</span> <span class="color-3">name</span>=<span class="color-1">"other"</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"other"</span>&gt; Prefiero no decir &lt;/<span class="color-2">label</span>&gt; <br>
+                
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                        &emsp;&lt;<span class="color-2">div</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">label</span> <span class="color-3">for</span>=<span class="color-1">"pais"</span>&gt; País de nacimiento &lt;/<span class="color-2">label</span>&gt; <br>
+                        &emsp;&emsp;&lt;<span class="color-2">select</span> <span class="color-3">name</span>=<span class="color-1">"pais"</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"ecuador"</span>&gt; Ecuador &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"peru"</span>&gt; Peru &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"colombia"</span>&gt; Colombia &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"argentina"</span>&gt; Argentina &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"venezuela"</span>&gt; Venezuela &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"mexico"</span>&gt; Mexico &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&emsp;&lt;<span class="color-2">option</span> <span class="color-3">value</span>=<span class="color-1">"chile"</span>&gt; Chile &lt;/<span class="color-2">option</span>&gt; <br>
+                        &emsp;&emsp;&lt;/<span class="color-2">select</span>&gt; <br>
+                        &emsp;&lt;/<span class="color-2">div</span>&gt; <br>
+                
+                        &emsp;&lt;<span class="color-2">button</span> <span class="color-3">type</span>=<span class="color-1">"submit"</span>&gt; Registrado &lt;/<span class="color-2">button</span>&gt; <br>
+                    &lt;/<span class="color-2">form</span>&gt;
+                  </code>
+
+            </div>
         </div>
-        <div>
-            <label for="fecha">Fecha de nacimiento* :</label>
-            <input type="date" name="fecha" required>
-        </div>
-        <div>
-            <label>Sexo: </label>
 
-            <input type="radio" name="men">
-            <label for="men">Hombre</label>
+        <section id="bt">
+            <button type="button" class="boton">
+                <a href="index.html" class="enlaceBoton">
+                    Inicio
+                </a>
+            </button>
+        </section>
 
-            <input type="radio" name="women">
-            <label for="women">Mujer</label>
-
-            <input type="radio" name="other">
-            <label for="other">Prefiero no decir</label>
-
-        </div>
-        <div>
-            <label for="pais">País de nacimiento</label>
-            <select name="pais" >
-                <option value="ecuador">Ecuador</option>
-                <option value="peru">Peru</option>
-                <option value="colombia">Colombia</option>
-                <option value="argentina">Argentina</option>
-                <option value="venezuela">Venezuela</option>
-                <option value="mexico">Mexico</option>
-                <option value="chile">Chile</option>
-            </select>
-        </div>
-
-        <button type="submit">Registrado</button>
-    </form>
-
-    <button type="button" class="boton">
-        <a href="index.html" class="enlaceBoton">
-            Inicio
-        </a>
-    </button>
+    </section>
+    <footer>
+        <p>&copy; 2023 Iri</p>
+    </footer>
 </body>
 
 </html>
