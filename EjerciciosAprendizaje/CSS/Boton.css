@@ -266,9 +266,9 @@ footer {
 
 .color-preview-1,
 .color-preview-2,
-.color-preview-3,
-.color-preview-4,
-.color-preview-red,
+.color-preview-3, .color-preview-7, .color-preview-8,
+.color-preview-4, .color-preview-5, .color-preview-6, .color-preview-9,
+.color-preview-red, .color-preview-blue, .color-preview-goldenrod, .color-preview-green,
 .color-preview-white {
     height: 8px;
     width: 8px;
@@ -293,10 +293,42 @@ footer {
     background-color: rgb(245, 231, 220);
 }
 
+.color-preview-5 {
+    background-color: rgb(253, 248, 240);
+}
+
+.color-preview-6{
+    background-color: rgb(15, 124, 106);
+}
+
+.color-preview-7{
+    background-color: rgb(122, 60, 194);
+}
+
+.color-preview-8{
+    background-color: rgb(192, 178, 52);
+}
+
+.color-preview-9{
+    background-color: rgb(243, 46, 200);
+}
+
 .color-preview-red {
     background-color: red;
 }
 
 .color-preview-white {
     background-color: rgb(255, 255, 255);
+}
+
+.color-preview-blue{
+    background-color: blue;
+}
+
+.color-preview-goldenrod{
+    background-color: goldenrod;
+}
+
+.color-preview-green{
+    background-color: green;
 }

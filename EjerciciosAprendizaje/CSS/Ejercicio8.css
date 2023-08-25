@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Victor+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Victor+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
 
 #ejercicio, body{
     background-color: rgb(245, 231, 220);
@@ -16,6 +19,10 @@ ul{
 .Enlaces:hover{
     background-color: red;
     color: white;
+}
+
+.menuEjer li{
+    font-family: 'Exo';
 }
 
 
