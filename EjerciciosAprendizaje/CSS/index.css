@@ -1,24 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Victor+Mono&display=swap');
 
-body{
-    background-color: rgba(248, 244, 238, 0.993);
+/* Estilos para pantallas grandes */
+@media (min-width: 1025px) {
+    header {
+        /*COLOR DE FONDO*/
+        background-color: rgb(248, 244, 238);
+        /*CONTORNO REDONDEADO*/
+        border-radius: 20px;
+        /*ANCHO*/
+        width: 97%;
+        /*ALTO*/
+        height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        padding: 20px;
+        /*EDITAR LETRA*/
+        font-family: 'Exo';
+
+    }
+
+    .Logo img {
+        width: 150px;
+        height: 90px;
+        float: left;
+    }
+
+    .NombreEjercicio {
+        width: 500px;
+        height: 75px;
+        margin: 0px auto;
+        text-align: center;
+        color: rgb(214, 174, 136);
+
+    }
+
 }
 
-.EjerAprendizaje{
+section {
+    margin-top: 150px;
+}
+
+body {
+    background-color: rgba(238, 232, 223, 0.993);
+}
+
+.EjerAprendizaje {
+    /* MARGEN SUPERIOR */
     margin-top: 20px;
+    /* ALINEACION DEL TEXTO */
     text-align: center;
+    /* COLOR DEL BORDE */
     border: 1px solid #e29898;
+    /* CONTORNO REDONDEADO */
     border-radius: 5px;
 }
 
-.Titulo1{
+.Titulo1 {
+    /* FUENTE DE TEXTO */
     font-family: 'Exo';
 }
 
-.boton1{
+.boton1 {
+
     display: inline-block;
     margin: 5px;
-    
+
 }
 
 .boton {
@@ -29,16 +78,24 @@ body{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     font-size: 15px;
     font-weight: bold;
-    font-family:'Victor Mono';
+    font-family: 'Victor Mono';
 }
 
 .boton:hover {
     background-color: #da2f2fab;
     border: 2px solid #da2f2fab;
-    
+
 }
 
 a {
     text-decoration: none;
     color: aliceblue;
+}
+
+footer {
+    margin-top: auto;
+    /* Empuja el pie de página hacia abajo */
+    text-align: center;
+
+    font-family: 'Exo';
 }

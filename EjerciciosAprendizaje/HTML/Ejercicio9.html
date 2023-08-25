@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Boton.css">
+    <link rel="stylesheet" href="CSS/Ejercicio9.css">
+    <title>Ejercicio 9</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="Logo">
+            <a href="index.html">
+                <img src="./IMG/Iri.png" alt="logo Irina">
+            </a>
+        </div>
+        <div class="NombreEjercicio">
+            <h1>Ejercicio 9</h1>
+        </div>
+    </header>
+
+    <section id="ejercicio">
+        <hr>
+        <h1>
+            Lorem ipsum dolor sit amet
+        </h1>
+
+        <p>Nulla pretium. Sed tempus nunc vitae neque. <span class="Rojo">Suspendisse gravida</span>, metus a
+            scelerisque sollicitudin, lacus velit ultricies nisl, nonummy tempus neque diam quis felis. <span
+                class="Amarillo">Etiam sagitiis tortor</span> sed arcu sagittis tristique.</p>
+
+        <h2 clas="Azul">Aliquam tincidunt, sem eget volutpat porta</h2>
+
+        <p>Vivamus velit dui, placerat vet, feugiat in, ornare et, urna. <span class="Rojo1">Anean turpis metus, <span
+                    class="Azul1">aliquam non</span>, tristique in</span>, pretium varius, sapien. Proin vitae nisi.
+            Suspendisse <span class="Morado"> porttitor purus ac elit</span>. Suspendisse eleifend odio at dui. In in
+            elit sed metus pretium elementum.</p>
+
+        <table class="tabla">
+            <tr>
+                <th></th>
+                <th class="Amarillo1">Título columna 1</th>
+                <th class="Amarillo1">Título columna 2</th>
+            </tr>
+            <tr>
+                <td class="Amarillo1">Título fila 1</td>
+                <td class="Verde">Donec purus ipsum</td>
+                <td class="Verde">Curabitur <span class="Cursiva">blandit</span></td>
+            </tr>
+            <tr>
+                <td class="Rojo">Título fila 2</td>
+                <td class="Verde">Donec <span class="Amarillo1">purus ipsum</span></td>
+                <td class="Verde">Curabitur blandit</td>
+            </tr>
+            <tr>
+                <th></th>
+                <th class="Rojo">Título columna 1</th>
+                <th class="Rojo">Título columna 2</th>
+            </tr>
+        </table>
+        <p class="Dorado">Donec purus ipsum, posuere id, venenatis at, placerat ac, lorem. Curabitur blandit, eros sed
+            gravida aliquet, risus justo porta lorem, ut mollis lectus tortor in orci. Pellentesque nec augue.
+            <br>
+            Fusce nec felis eu diam pretium adipiscing. <span class="Rosado">Nunc elit elit, vehicula culputate</span>,
+            venenatis in, posure id, posuere id, lorem. Etiam sagittis, tellus in ultrices accumsan, diam nisi feugiat
+            ante, eu congue magna mi non nisl.
+            <br>
+            Vivamus ultrices aliquet augue. <span class="Verde1">Donec arcu pede, pretium vitae</span>, rutrum aliquet,
+            tincidunt blandit, pede. Aliquam in nisi. Suspendisse volutpat. Nulla facilisi. Ut ullamcorper nisi quis mi.
+        </p>
+        <hr>
+    </section>
+
+
+    <section id="resolucion">
+
+        <h1 class="fuenteLetra">Solución</h1>
+
+        <section class="cartas">
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">HTML &lt;BODY&gt;</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        &lt;h1&gt;
+                            Lorem ipsum dolor sit amet
+                        &lt;/h1&gt; <br>
+
+                        &lt;p&gt; <br>
+                        Nulla pretium. Sed tempus nunc vitae neque. &lt;span class="Rojo"&gt;Suspendisse gravida&lt;/span&gt;,
+                            metus a scelerisque sollicitudin, lacus velit ultricies nisl, nonummy tempus neque diam quis felis. &lt;span
+                                class="Amarillo"&gt;Etiam sagitiis tortor&lt;/span&gt; sed arcu sagittis tristique. <br>
+                        &lt;/p&gt; <br>
+
+                        &lt;h2 class="Azul"&gt;Aliquam tincidunt, sem eget volutpat porta&lt;/h2&gt; <br>
+
+                        &lt;p&gt; <br>
+                        Vivamus velit dui, placerat vet, feugiat in, ornare et, urna. &lt;span class="Rojo1"&gt;Anean turpis metus,
+                            &lt;span class="Azul1"&gt;aliquam non&lt;/span&gt;, tristique in&lt;/span&gt;, pretium varius, sapien. Proin vitae
+                            nisi. Suspendisse &lt;span class="Morado"&gt;porttitor purus ac elit&lt;/span&gt;. Suspendisse eleifend odio at
+                            dui. In in elit sed metus pretium elementum. <br>
+                        &lt;/p&gt; <br>
+
+                        &lt;table class="tabla"&gt; <br>
+                        &emsp;&lt;tr&gt; <br>
+                        &emsp;&emsp;&lt;th&gt;&lt;/th&gt; <br>
+                        &emsp;&emsp;&lt;th class="Amarillo1"&gt;Título columna 1&lt;/th&gt; <br>
+                        &emsp;&emsp;&lt;th class="Amarillo1"&gt;Título columna 2&lt;/th&gt; <br>
+                        &emsp;&lt;/tr&gt; <br>
+                        &emsp;&lt;tr&gt; <br>
+                        &emsp;&emsp;&lt;td class="Amarillo1"&gt;Título fila 1&lt;/td&gt; <br>
+                        &emsp;&emsp;&lt;td class="Verde"&gt;Donec purus ipsum&lt;/td&gt; <br>
+                        &emsp;&emsp;&lt;td class="Verde"&gt;Curabitur &lt;span class="Cursiva"&gt;blandit&lt;/span&gt;&lt;/td&gt; <br>
+                        &emsp;&lt;/tr&gt; <br>
+                        &emsp;&lt;tr&gt; <br>
+                        &emsp;&emsp;&lt;td class="Rojo"&gt;Título fila 2&lt;/td&gt; <br>
+                        &emsp;&emsp;&lt;td class="Verde"&gt;Donec &lt;span class="Amarillo1"&gt;purus ipsum&lt;/span&gt;&lt;/td&gt; <br>
+                        &emsp;&emsp;&lt;td class="Verde"&gt;Curabitur blandit&lt;/td&gt; <br>
+                        &emsp;&lt;/tr&gt; <br>
+                        &emsp;&lt;tr&gt; <br>
+                        &emsp;&emsp;&lt;th&gt;&lt;/th&gt; <br>
+                        &emsp;&emsp;&lt;th class="Rojo"&gt;Título columna 1&lt;/th&gt; <br>
+                        &emsp;&emsp;&lt;th class="Rojo"&gt;Título columna 2&lt;/th&gt; <br>
+                        &emsp;&lt;/tr&gt; <br>
+                        &lt;/table&gt; <br>
+                        &lt;p class="Dorado"&gt; <br>
+                        Donec purus ipsum, posuere id, venenatis at, placerat ac, lorem. Curabitur blandit, eros
+                            sed gravida aliquet, risus justo porta lorem, ut mollis lectus tortor in orci. Pellentesque nec augue.
+                            &lt;br&gt;
+                            Fusce nec felis eu diam pretium adipiscing. &lt;span class="Rosado"&gt;Nunc elit elit, vehicula culputate&lt;/span&gt;,
+                            venenatis in, posure id, posuere id, lorem. Etiam sagittis, tellus in ultrices accumsan, diam nisi feugiat
+                            ante, eu congue magna mi non nisl.
+                            &lt;br&gt;
+                            Vivamus ultrices aliquet augue. &lt;span class="Verde1"&gt;Donec arcu pede, pretium vitae&lt;/span&gt;, rutrum
+                            aliquet, tincidunt blandit, pede. Aliquam in nisi. Suspendisse volutpat. Nulla facilisi. Ut ullamcorper nisi quis
+                            mi.<br>
+                            &lt;/p&gt;
+                      </code>
+
+                </div>
+            </div>
+
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">CSS</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        <br><br>
+                        <span class="color-4">@import</span> <span class="color-3">url(</span><span class="color-1">'https://fonts.googleapis.com/css2?family=Exo</span> <br>
+                        <span class="color-1">&family=Victor+Mono&display=swap'</span><span class="color-3">)</span>; <br>
+                        <br>
+                        <span class="color-0">body </span> <span>{</span> 
+                             <span class="color-2">background-color</span><span>:</span>
+                                <span class="color-preview-4"></span>
+                                <span class="color-3">rgb(</span>
+                                <span class="color-1"> 245, 231, 220 </span>
+                                <span class="color-3">)</span>;
+                        <span>}</span>
+                        <br><br>
+                        <span class="color-0">ul</span> { 
+                             <span class="color-2">font-family</span><span>:</span>
+                            <span class="color-1">'Victor Mono'</span>; 
+                        } <br>
+                        <br>
+                        <span class="color-0">.Enlaces</span> { <br>
+                            &emsp;&emsp;<span class="color-2">text-decoration</span><span>:</span>
+                            <span class="color-3">none</span>; <br>
+                            &emsp;&emsp;<span class="color-2">color</span><span>:</span>
+                            <span class="color-preview-red"></span>
+                            <span class="color-3">red</span>; <br>
+                        } <br>
+                        <br>
+                        <span class="color-0">.Enlaces:hover</span> { <br>
+                            &emsp;&emsp;<span class="color-2">background-color</span><span>:</span>
+                            <span class="color-preview-red"></span>
+                            <span class="color-3">red</span>; <br>
+                            &emsp;&emsp;<span class="color-2">color</span><span>:</span>
+                            <span class="color-preview-white"></span>
+                            <span class="color-3">white</span>; <br>
+                        } <br>
+
+                      </code>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="bt">
+            <button type="button" class="boton">
+                <a href="index.html" class="enlaceBoton">
+                    Inicio
+                </a>
+            </button>
+        </section>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Iri</p>
+    </footer>
+</body>
+
+</html>

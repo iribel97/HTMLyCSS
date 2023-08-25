@@ -11,13 +11,9 @@ body {
 /*--------------   CABECERA   --------------------------------------------------------------------*/
 
 header {
-    /*COLOR DE FONDO*/
     background-color: rgb(248, 244, 238);
-    /*CONTORNO REDONDEADO*/
     border-radius: 20px;
-    /*ANCHO*/
     width: 100%;
-    /*ALTO*/
     height: 100px;
     position: fixed;
     top: 0;
@@ -25,28 +21,74 @@ header {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     z-index: 1;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /*EDITAR LETRA*/
     font-family: 'Exo';
-
 }
 
 .Logo img {
     width: 150px;
     height: 90px;
-    float: left;
 }
 
 .NombreEjercicio {
     width: 300px;
-    height: 75px;
-    margin: 0px auto;
+    margin-left: 25%;
     padding: 9px;
     text-align: center;
     color: rgb(214, 174, 136);
+    border: 1px solid #f7bdbd;
+}
 
+.menuEjer {
+    position: relative; /* Cambiamos a posición relativa */
+    display: inline-block; /* Aseguramos que ocupe solo el espacio necesario */
+    margin-left: auto;
+}
+
+.popup-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Muestra el menú debajo del botón */
+    right: 0;
+    width: 200px; /* Ajusta el ancho del menú según tus necesidades */
+    background-color: rgb(245, 222, 198);
+    border: 1px solid #f7bdbd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
 }
 
 
+.menuEjer:hover .popup-menu {
+    display: block;
+}
+
+.popup-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.popup-menu li {
+    margin-bottom: 10px;
+}
+
+.popup-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.popup-menu a:hover {
+    color: #cdacac; /* Cambiamos el color al pasar el mouse */
+   
+  }
 
 /*--------------   SECCIONES   --------------------------------------------------------------------*/
 section {
@@ -223,7 +265,10 @@ footer {
 }
 
 .color-preview-1,
-.color-preview-2, .color-preview-3, .color-preview-4, .color-preview-red,
+.color-preview-2,
+.color-preview-3,
+.color-preview-4,
+.color-preview-red,
 .color-preview-white {
     height: 8px;
     width: 8px;

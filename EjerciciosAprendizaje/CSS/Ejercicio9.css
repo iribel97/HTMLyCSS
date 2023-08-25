@@ -1,14 +1,14 @@
 
 
-body{
-    background-color: rgb(248, 239, 228);
+#ejercicio, body{
+    background-color: rgb(253, 248, 240);
 }
 
-h1{
+#ejercicio h1{
     color: rgb(15, 124, 106);
 }
 
-h2{
+#ejercicio h2{
     color: blue;
 }
 
@@ -71,26 +71,4 @@ h2{
 .Verde1{
     color: green;
     text-decoration: underline;
-}
-
-
-.boton {
-    background-color: #e29898;
-    padding: 10px 20px;
-    border: 2px solid #e29898;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    font-size: 15px;
-    font-weight: bold;
-    font-family:'Victor Mono';
-}
-
-.boton:hover {
-    background-color: #da2f2fab;
-    border: 2px solid #da2f2fab;
-}
-
-.enlaceBoton {
-    text-decoration: none;
-    color: rgb(85, 91, 97);
 }
