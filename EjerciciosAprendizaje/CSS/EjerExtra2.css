@@ -1,0 +1,40 @@
+.tablaA {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 5px;
+}
+
+.tablaA th, .tablaA td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.tablaA th {
+    background-color: #eee;
+}
+
+.tablaA tr:nth-child(even) {
+    background-color: #FFFFCC;
+}
+
+.tablaA .azul {
+    background-color: #E6F3FF;
+}
+
+.tablaA .Euro::before {
+    content: "💶";
+}
+
+.tablaA .Dolar::before {
+    content: "💵";
+}
+
+.tablaA .Libra::before {
+    content: "💷";
+}
+
+.tablaA .Yen::before {
+    content: "💴";
+}

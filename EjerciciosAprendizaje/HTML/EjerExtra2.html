@@ -7,6 +7,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Boton.css">
     <link rel="icon" href="../IMG/Iri.png" type="image/png">
+    <link rel="stylesheet" href="../CSS/EjerExtra2.css">
     <title>Ejercicio Extra 2</title>
 </head>
 <body>
@@ -34,5 +35,192 @@
             </nav>
         </div>
     </header>
+    <section id="ejercicio">
+        <hr>
+        <table class="tablaA">
+            <tr>
+                <th>Cambio</th>
+                <th>Compra</th>
+                <th>Venta</th>
+                <th>Maximo</th>
+                <th>Minimo</th>
+            </tr>
+            <tr>
+                <td class="Euro azul">Euro/Dolar</td>
+                <td>1.2524</td>
+                <td>1.2527</td>
+                <td>1.2539</td>
+                <td>1.2488</td>
+            </tr>
+            <tr>
+                <td class="Dolar azul">Dolar/Yen</td>
+                <td>119.01</td>
+                <td>119.05</td>
+                <td>119.82</td>
+                <td>119.82</td>
+            </tr>
+            <tr>
+                <td class="Libra azul">Libra/Dolar</td>
+                <td>1.8606</td>
+                <td>1.8611</td>
+                <td>1.8651</td>
+                <td>1.8522</td>
+            </tr>
+            <tr>
+                <td class="Yen azul">Yen/Euro</td>
+                <td>0.6711</td>
+                <td>0.6705</td>
+                <td>0.6713</td>
+                <td>0.6676</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+    <section id="resolucion">
+        <h1>Solución</h1>
+        <section class="cartas">
+            
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">HTML &lt;BODY&gt;</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        &lt;<span class="color-2">table</span> <span class="color-3">class</span>=<span class="color-1">"tablaA"</span>> <br>
+                        &emsp;&lt;<span class="color-2">tr</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">th</span>>Cambio&lt;<span class="color-2">/th</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">th</span>>Compra&lt;<span class="color-2">/th</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">th</span>>Venta&lt;<span class="color-2">/th</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">th</span>>Maximo&lt;<span class="color-2">/th</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">th</span>>Minimo&lt;<span class="color-2">/th</span>> <br>
+                        &emsp;&lt;<span class="color-2">/tr</span>> <br>
+                        &emsp;&lt;<span class="color-2">tr</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span> <span class="color-3">class</span>=<span class="color-1">"Euro azul"</span>>Euro/Dolar&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.2524&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.2527&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.2539&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.2488&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&lt;<span class="color-2">/tr</span>> <br>
+                        &emsp;&lt;<span class="color-2">tr</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span> <span class="color-3">class</span>=<span class="color-1">"Dolar azul"</span>>Dolar/Yen&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>119.01&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>119.05&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>119.82&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>119.82&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&lt;<span class="color-2">/tr</span>> <br>
+                        &emsp;&lt;<span class="color-2">tr</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span> <span class="color-3">class</span>=<span class="color-1">"Libra azul"</span>>Libra/Dolar&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.8606&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.8611&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.8651&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>1.8522&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&lt;<span class="color-2">/tr</span>> <br>
+                        &emsp;&lt;<span class="color-2">tr</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span> <span class="color-3">class</span>=<span class="color-1">"Yen azul"</span>>Yen/Euro&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>0.6711&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>0.6705&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>0.6713&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&emsp;&lt;<span class="color-2">td</span>>0.6676&lt;<span class="color-2">/td</span>> <br>
+                        &emsp;&lt;<span class="color-2">/tr</span>> <br>
+                        &lt;<span class="color-2">/table</span>> <br>
+
+                        
+                        
+                      </code>
+
+                </div>
+            </div>
+            <div class="code-editor">
+                <div class="header">
+                    <span class="title">CSS</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">
+                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                        <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M6 6L18 18"></path>
+                            <path stroke-linecap="round" stroke-width="2" stroke="#4C4F5A" d="M18 6L6 18"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="editor-content">
+
+                    <code class="code">
+                        <span class="color-0">.tablaA</span> { <br>
+                            &emsp;&emsp;<span class="color-2">border</span>: 
+                            <span class="color-1">1px</span> <span class="color-3">solid</span>
+                            <span class="color-preview-1"></span>
+                            <span class="color-3">black</span>; <br>
+                            &emsp;&emsp;<span class="color-2">border-collapse</span>: <span class="color-3">collapse</span>; <br>
+                            &emsp;&emsp;<span class="color-2">width</span>: <span class="color-1">50%</span>; <br>
+                            &emsp;&emsp;<span class="color-2">margin-left</span>: <span class="color-1">5px</span>; <br>
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA th</span>,<span class="color-0"> .tablaA td</span> {<br>
+                            &emsp;&emsp;<span class="color-2">border</span>: 
+                            <span class="color-1">1px</span> <span class="color-3">solid</span>
+                            <span class="color-preview-1"></span>
+                            <span class="color-3">black</span>; <br>
+                            &emsp;&emsp;<span class="color-2">padding</span>: <span class="color-1">5px</span>; <br>
+                            &emsp;&emsp;<span class="color-2">text-align</span>: <span class="color-3">center</span>; <br>
+                        } <br>
+                        <br>
+                        <span class="color-0">.tablaA th</span> {
+                            <span class="color-2">background-color</span>: 
+                            <span class="color-preview-12"></span>
+                            <span class="color-3">#eee</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA tr:nth-child(even)</span> {
+                            <span class="color-2">background-color</span>:
+                            <span class="color-preview-13"></span>
+                            <span class="color-3">#FFFFCC</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA .azul</span> {
+                            <span class="color-2">background-color</span>: 
+                            <span class="color-preview-14"></span>
+                            <span class="color-3">#E6F3FF</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA .Euro::before</span> {
+                            <span class="color-2">content</span>: <span class="color-3">"💶"</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA .Dolar::before</span> {
+                            <span class="color-2">content</span>: <span class="color-3">"💵"</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA .Libra::before</span> {
+                            <span class="color-2">content</span>: <span class="color-3">"💷"</span>;
+                        }<br>
+                        <br>
+                        <span class="color-0">.tablaA .Yen::before</span> {
+                            <span class="color-2">content</span>: <span class="color-3">"💴"</span>;
+                        }
+                      </code>
+
+                </div>
+            </div>
+        </section>
+        <section id="bt">
+            <button type="button" class="boton">
+                <a href="../index.html" class="enlaceBoton">
+                    Inicio
+                </a>
+            </button>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2023 Iri</p>
+    </footer>
 </body>
 </html>
