@@ -1,0 +1,33 @@
+.lista-vineta {
+    /*Quitar el dibujo del item*/
+    list-style: none;
+    padding-left: 30px;
+}
+
+.lista-vineta li::before {
+    content: "📗"; /* Cambiar por el símbolo deseado */
+    margin-right: 10px;
+    
+}
+
+/*Lista que contiene los links*/
+.lista-link {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.lista-link li::before {
+    content: "💜"; /* Cambiar por el símbolo deseado */
+    margin-right: 10px;
+    
+}
+
+.lista-link a {
+    text-decoration: none;
+    color: #db7b7b;
+}
+
+.lista-link a:hover {
+    color: #703e3e; /* Cambiamos el color al pasar el mouse */
+   
+  }
