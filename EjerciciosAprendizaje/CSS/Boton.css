@@ -265,8 +265,8 @@ footer {
 }
 
 .color-preview-1,
-.color-preview-2,
-.color-preview-3, .color-preview-7, .color-preview-8,
+.color-preview-2, .color-preview-11,
+.color-preview-3, .color-preview-7, .color-preview-8, .color-preview-10,
 .color-preview-4, .color-preview-5, .color-preview-6, .color-preview-9,
 .color-preview-red, .color-preview-blue, .color-preview-goldenrod, .color-preview-green,
 .color-preview-white {
@@ -311,6 +311,14 @@ footer {
 
 .color-preview-9{
     background-color: rgb(243, 46, 200);
+}
+
+.color-preview-10{
+    background-color: #db7b7b;
+}
+
+.color-preview-11{
+    background-color: #703e3e;
 }
 
 .color-preview-red {
